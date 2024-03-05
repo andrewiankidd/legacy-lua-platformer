@@ -1,0 +1,1 @@
+lovedist.exe game "platformer" -e -c -d
