@@ -1,4 +1,4 @@
-﻿local Collision = require("love2d4me").collision
+local Collision = require("love2d4me").collision
 
 -- Movement constants
 local MOVE_SPEED = 5

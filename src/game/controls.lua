@@ -1,4 +1,4 @@
-﻿local Projectile = require("love2d4me").projectile
+local Projectile = require("love2d4me").projectile
 
 local BULLET_SPEED = 450
 local BULLET_LIFETIME = 1.5

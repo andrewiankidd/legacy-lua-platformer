@@ -1,4 +1,4 @@
-﻿local Love2D4Me = require("love2d4me")
+local Love2D4Me = require("love2d4me")
 Input = Love2D4Me.input
 local GameState = Love2D4Me.gamestate
 local MapLoader = Love2D4Me.maploader
