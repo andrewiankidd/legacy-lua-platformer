@@ -56,7 +56,6 @@ local function check_move(dir)
     elseif dir == "right" then nx = calcx + PLAYER_SIZE + movespeed
     end
 
-    local perm
     if dir == "up" or dir == "down" then
         local left = collision:check(calcx, ny)
         local right = collision:check(calcx + PLAYER_SIZE - 1, ny)
