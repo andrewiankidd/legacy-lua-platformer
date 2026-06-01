@@ -1,0 +1,40 @@
+{
+  "title": "Platformer",
+  "title_html": "<mark>Plat</mark>former",
+  "description": "A 2D side-scrolling platformer built with Lua and LOVE2D, circa 2011. Jump, shoot, grapple.",
+  "description_html": "A 2D side-scrolling platformer built with Lua and <a href=\"https://love2d.org\">LOVE2D</a> circa 2011. Jump, shoot, grapple your way through tile-based maps.",
+  "repo": "andrewiankidd/legacy-lua-platformer",
+  "source": "https://github.com/andrewiankidd/legacy-lua-platformer",
+  "theme": {
+    "background": "#0a1a0a",
+    "foreground": "rgba(10, 26, 10, 0.75)",
+    "highlight": "#4a4",
+    "text": "#d0e0d0",
+    "muted": "#6a8a6a",
+    "card": "#142a14",
+    "border": "#2a4a2a",
+    "wave-start": "#4a4",
+    "wave-end": "#0a1a0a"
+  },
+  "downloads": [
+    {
+      "label": "Play in Browser",
+      "href": "Web/index.html",
+      "primary": true,
+      "icon": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+    },
+    {
+      "label": ".love File",
+      "release_file": "Platformer-love.zip",
+      "icon": "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
+    }
+  ],
+  "features": [
+    "<strong>Side-scrolling movement</strong> &mdash; run, jump, and grapple through levels",
+    "<strong>Tile-based maps</strong> &mdash; collision detection via pixel-color map layers",
+    "<strong>Shooting</strong> &mdash; fire projectiles in your facing direction",
+    "<strong>Enemies</strong> &mdash; dynamic enemy spawning and collision",
+    "<strong>Camera tracking</strong> &mdash; scrolls with the player through large maps",
+    "<strong>Web build</strong> &mdash; plays in the browser via love.js (WASM)"
+  ]
+}

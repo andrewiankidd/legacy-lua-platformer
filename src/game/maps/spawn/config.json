@@ -1,0 +1,11 @@
+{
+    "spawn": { "x": 550, "y": 600, "cam_x": 0, "cam_y": 0 },
+    "entities": [
+        { "character": "enemy", "x": 900, "y": 600, "behavior": "patrol",
+          "patrol": { "distance": 200, "direction": "left" },
+          "interaction": "collision", "seen_range": 400, "chase_speed": 2, "hp": 3 }
+    ],
+    "messages": [
+        "Arrow keys to move  |  Space to jump  |  Shift to sprint  |  X to shoot"
+    ]
+}

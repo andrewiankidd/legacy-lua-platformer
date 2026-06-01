@@ -1,0 +1,13 @@
+{
+    "title": "Platformer",
+    "width": 1280,
+    "height": 720,
+    "play_label": "Play",
+    "starting_map": "spawn",
+    "default_filter": { "min": "linear", "mag": "nearest" },
+    "death_text": "DEAD",
+    "death_bg": "game/pictures/blood.png",
+    "death_bg_animate": "slide_down",
+    "death_font_size": 72,
+    "death_respawn_text": "Press Enter to Respawn"
+}
