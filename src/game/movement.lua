@@ -7,7 +7,7 @@ local CAMERA_THRESHOLD = 50
 local PLAYER_SIZE = 45
 local MAX_JUMP_HEIGHT = PLAYER_SIZE * 2
 
--- Collision color map (red channel â†’ permission)
+-- Collision color map (red channel -> permission)
 local COLOR_MAP = {
     [0]   = "solid",
     [255] = "walk",
