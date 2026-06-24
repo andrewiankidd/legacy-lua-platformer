@@ -3,6 +3,14 @@
     "width": 1280,
     "height": 720,
     "play_label": "Play",
+    "actions": {
+        "move_left":  { "keys": ["left", "a"] },
+        "move_right": { "keys": ["right", "d"] },
+        "confirm":    { "keys": ["return", "space"], "label": "Jump" },
+        "sprint":     { "keys": ["lshift", "rshift"] },
+        "shoot":      { "keys": ["x"] },
+        "skin_cycle": { "keys": ["home"] }
+    },
     "default_skin": "clean",
     "platform_skins": {
         "desktop": "clean",
