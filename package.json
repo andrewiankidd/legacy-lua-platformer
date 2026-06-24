@@ -1,6 +1,6 @@
 {
   "name": "platformer",
-  "lovefile": "game",
+  "lovefile": "platformer",
   "version": "1.0.0",
   "private": true,
   "description": "2D side-scrolling platformer built with Lua and LOVE2D",
